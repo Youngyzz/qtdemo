@@ -22,6 +22,8 @@ private:
     int timerId;
     int angle;
     qreal rMin, rMax;
+    int interval;
+    QPointF center;
 };
 
 #endif // MYLABEL_H

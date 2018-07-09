@@ -13,7 +13,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
 void MainWindow::on_pushButton_toggled(bool checked)
 {
     if (checked) {
@@ -21,4 +20,9 @@ void MainWindow::on_pushButton_toggled(bool checked)
     } else {
         ui->label->start();
     }
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+
 }
